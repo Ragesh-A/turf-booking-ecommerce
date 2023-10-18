@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className='absolute z-50 flex w-full justify-between px-5 py-10 md:justify-normal md:gap-2'>
       <Image
-        src='./img/logo.svg'
+        src='/img/logo.svg'
         width={25}
         height={25}
         alt='logo' />

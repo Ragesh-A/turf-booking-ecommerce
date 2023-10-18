@@ -7,7 +7,7 @@ const ExpandableSection = ({ children, className }:
   const [isExpanded, setIsExpanded] = useState(false)
 
   return (
-    <section className={`${isExpanded ? 'h-full' : 'h-screen ' + className}`
+    <section className={`${isExpanded ? 'h-full' : 'max-h-screen ' + className}`
       + ' transition-all duration-700 p-5'}>
       {children}
       <button
