@@ -22,11 +22,11 @@ const Landing = () => {
       <p className="mt-5 text-white md:text-center">Book your turf easy</p>
       <div className="mt-10 flex gap-2 md:absolute md:bottom-10 md:left-1/2 
         md:-translate-x-1/2">
-        <Link href='book'
+        <Link href='turfs'
           className="rounded-md border-2 border-white 
           px-4 py-2 text-xl font-bold text-white hover:bg-white hover:text-black"
         >Book now</Link>
-        <Link href='purchase'
+        <Link href='merchantries'
           className="rounded-md border-2 bg-white px-4  py-2 text-xl font-bold hover:bg-transparent hover:text-white"
         >
           Shop Merchantries
