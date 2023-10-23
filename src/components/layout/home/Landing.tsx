@@ -26,7 +26,7 @@ const Landing = () => {
           className="rounded-md border-2 border-white 
           px-4 py-2 text-xl font-bold text-white hover:bg-white hover:text-black"
         >Book now</Link>
-        <Link href='merchantries'
+        <Link href='shop'
           className="rounded-md border-2 bg-white px-4  py-2 text-xl font-bold hover:bg-transparent hover:text-white"
         >
           Shop Merchantries

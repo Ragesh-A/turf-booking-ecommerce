@@ -12,8 +12,9 @@ const Header = () => {
         alt='logo' />
       <div className='flex md:gap-20'>
         <NavLink href='/' >Home</NavLink>
-        <NavLink href='/kook' >Book</NavLink>
+        <NavLink href='/turfs' >Book</NavLink>
         <NavLink href='/shop' >Merchantries</NavLink>
+        <NavLink href='/profile' >Profile</NavLink>
       </div>
     </header>
   )
