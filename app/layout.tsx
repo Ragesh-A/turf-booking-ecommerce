@@ -2,7 +2,7 @@ import Header from '@/components/layout/Header'
 import '@/global.css'
 
 export const metadata = {
-  title: 'Next.js + Three.js',
+  title: process.env.NEXT_PUBLIC_APP_NAME,
   description: 'A minimal starter for Nextjs + React-three-fiber and Threejs.',
 }
 

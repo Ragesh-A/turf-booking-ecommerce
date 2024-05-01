@@ -1,0 +1,28 @@
+.landing-page-background {
+  background:
+    linear-gradient(90deg, black, transparent),
+    url(/img/criket.jpg) no-repeat;
+  background-repeat: 'no-repeat';
+  background-size: 'cover';
+  background-position: 'center';
+  animation: changeBg 5.75s ease infinite;
+}
+
+@keyframes changeBg {
+  0% {
+    background:
+      linear-gradient(90deg, black, transparent),
+      url(/img/criket.jpg);
+    background-repeat: 'no-repeat';
+    background-size: 'cover';
+    background-position: 'center';
+  }
+  50% {
+    background:
+      linear-gradient(90deg, black, transparent),
+      url(/img/soccer.jpg);
+    background-repeat: 'no-repeat';
+    background-size: 'cover';
+    background-position: 'center';
+  }
+}

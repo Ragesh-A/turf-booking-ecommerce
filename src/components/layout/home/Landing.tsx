@@ -2,16 +2,14 @@ import React from 'react'
 import ChangingTitle from '../ChangingTitle'
 import Link from 'next/link'
 
+import './landing.css'
+
 const Landing = () => {
   return (
     <section
       className="relative flex min-h-screen flex-col 
-        justify-center px-5 xl:h-screen"
-      style={{
-        background: 'linear-gradient(90deg, black , transparent), url(/img/soccer.jpg)',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-      }}>
+        justify-center px-5 xl:h-screen landing-page-background"
+      >
 
       <h1 className="left-5 text-[5rem] font-bold uppercase leading-[4rem] md:absolute md:-rotate-90 xl:-left-10 xl:text-9xl">
         <span className="text-white">
